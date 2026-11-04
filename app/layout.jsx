@@ -5,9 +5,9 @@ export default function Layout({ children }) {
         <title> Belajar Next.js</title>
       </head>
       <body>
-        <header>[header]</header>
+        <header>[header] app layout</header>
         <main>{children}</main>
-        <footer>[footer]</footer>
+        <footer>[footer] app layout</footer>
       </body>
     </html>
   );
