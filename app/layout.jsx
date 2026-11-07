@@ -1,4 +1,5 @@
 import Link from "next/link"; // import link
+import "./globals.css"; // import global css yang berisi tailwind
 
 export default function Layout({ children }) {
   return (
