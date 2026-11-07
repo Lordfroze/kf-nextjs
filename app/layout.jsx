@@ -15,7 +15,10 @@ export default function Layout({ children }) {
         </ul>
         <ul>
           <li>
-            <Link href="/blog">Blog</Link>
+            {/* link dengan prefetch false */}
+            <Link href="/blog" prefetch={false}>
+              Blog
+            </Link>
           </li>
         </ul>
         <header>[header] app layout</header>
