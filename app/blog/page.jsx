@@ -8,12 +8,12 @@ export default function blog() {
       <p>Selamat datang di halaman blog</p>
       <ul>
         <li>
-          <Link href="/blog/artikel" className="text-blue-500">
+          <Link href="/blog/belajar-nextjs" className="text-blue-500">
             Belajar Nextjs
           </Link>
         </li>
         <li>
-          <Link href="/blog/judul-berita" className="text-blue-500">
+          <Link href="/blog/belajar-nodejs" className="text-blue-500">
             Belajar Nodejs
           </Link>
         </li>
