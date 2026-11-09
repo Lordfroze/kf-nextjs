@@ -1,0 +1,7 @@
+{
+    "compilerOptions":{
+        "paths": {
+            "@/*": ["./*"] // mapping all files in the root directory to the root
+        }
+    }
+}

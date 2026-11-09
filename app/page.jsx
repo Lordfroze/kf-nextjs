@@ -1,4 +1,4 @@
-import Heading from "../components/Heading";
+import Heading from "@/components/Heading"; // menggunakan import alias
 
 export default function Home() {
   return (
