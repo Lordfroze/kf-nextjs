@@ -1,5 +1,5 @@
-import Link from "next/link"; // import link
 import "./globals.css"; // import global css yang berisi tailwind
+import Navbar from "../components/NavBar";
 
 export default function Layout({ children }) {
   return (
@@ -9,20 +9,8 @@ export default function Layout({ children }) {
       </head>
       <body className="flex flex-col px-4 py-4 min-h-screen">
         <header>
-          <nav>
-            <ul className="flex gap-2">
-              <li>
-                {/* Menggunakan Link nextjs untuk navigasi */}
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                {/* link dengan prefetch false */}
-                <Link href="/blog" prefetch={false}>
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          {/* import component navbar */}
+          <Navbar />
         </header>
         <main className="py-3 grow">{children}</main>
         <footer className="border-t py-3 text-center text-xs"> Footer</footer>
