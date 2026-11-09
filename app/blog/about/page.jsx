@@ -1,13 +1,8 @@
-function add(a, b) {
-  return a;
-}
-
-console.log(add(1, 2));
-
+import Heading from "../../../components/Heading";
 export default function artikel() {
   return (
     <div>
-      <h1>Halaman About</h1>
+      <Heading>Halaman About</Heading>
       <p>Selamat datang di about</p>
     </div>
   );

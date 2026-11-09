@@ -1,7 +1,10 @@
+import Heading from "../components/Heading";
+
 export default function Home() {
   return (
     <div>
-      <h1>Page jsx</h1>
+      {/* import heading */}
+      <Heading>Home</Heading>
       <p>Selamat datang di halaman utama!</p>
     </div>
   );
