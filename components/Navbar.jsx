@@ -21,7 +21,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/blog/about" className="text-sky-500 hover:underline">
+          <Link href="/about" className="text-sky-500 hover:underline">
             About
           </Link>
         </li>
