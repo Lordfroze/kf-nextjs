@@ -1,9 +1,11 @@
 import "./globals.css"; // import global css yang berisi tailwind
 import Navbar from "../components/NavBar";
+import { roboto } from "./font";
 
 export default function Layout({ children }) {
   return (
-    <html lang="en">
+    // import font roboto
+    <html lang="en" className={roboto.variable}>
       <head>
         <title> Belajar Next.js</title>
       </head>

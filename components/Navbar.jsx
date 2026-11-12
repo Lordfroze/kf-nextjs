@@ -10,7 +10,7 @@ export default function Navbar() {
             Home
           </Link>
         </li>
-        <li>
+        <li className="ml-auto">
           {/* link dengan prefetch false */}
           <Link
             href="/blog"
