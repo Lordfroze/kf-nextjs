@@ -1,6 +1,9 @@
 import Heading from "@/components/Heading";
+import { readFile } from "node:fs/promises"; // import readFile
 
-export default function artikel() {
+export default async function artikel() {
+  // membaca file markdown
+  const text = await readFile("./content/blog/belajar-nextjs.md", "utf-8");
   return (
     <div>
       <Heading>Belajar NextJS</Heading>
@@ -8,6 +11,9 @@ export default function artikel() {
       <p>Selamat datang di belajar NextJS</p>
       {/* import dari folder public */}
       <img src="/images/nextjs.png" width={500} className="rounded-lg" />
+
+      {/* menampilkan file md */}
+      <p>{text}</p>
     </div>
   );
 }
