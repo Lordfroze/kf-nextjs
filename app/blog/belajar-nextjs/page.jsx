@@ -17,7 +17,7 @@ export default async function artikel() {
       <img src="/images/nextjs.png" width={500} className="rounded-lg" />
 
       {/* menampilkan file md dengan format html dari marked */}
-      <article dangerouslySetInnerHTML={{ __html: html }} />
+      <article dangerouslySetInnerHTML={{ __html: html }} className="prose" />
     </div>
   );
 }
